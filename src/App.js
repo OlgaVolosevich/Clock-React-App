@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Clock from './components/Clock/Clock';
+import DateInfo from './components/DateInfo/DateInfo';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor (props){
+    super(props);
+    this.state = {
+      date: new Date(),
+    }
+  }
+
+  componentDidMount() {
+    const clockGo = setInterval(
+      ()=> this.updateTime(), 1000
+    )
+  }
+
+  updateTime() {
+    this.setState({
+      date: new Date()
+    })
+  }
+  render() {
+
+    return(
+      <div>
+        <DateInfo  date={this.state.date}/>
+        <Clock time={this.state.date}/>
+      </div>
+    )
+  }
 }
 
 export default App;
