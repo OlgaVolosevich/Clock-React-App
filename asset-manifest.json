@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Clock-React-App/static/css/main.d6b28c43.chunk.css",
+    "main.js": "/Clock-React-App/static/js/main.32fca8e9.chunk.js",
+    "main.js.map": "/Clock-React-App/static/js/main.32fca8e9.chunk.js.map",
+    "runtime-main.js": "/Clock-React-App/static/js/runtime-main.1fb84bc4.js",
+    "runtime-main.js.map": "/Clock-React-App/static/js/runtime-main.1fb84bc4.js.map",
+    "static/js/2.e4d0b45f.chunk.js": "/Clock-React-App/static/js/2.e4d0b45f.chunk.js",
+    "static/js/2.e4d0b45f.chunk.js.map": "/Clock-React-App/static/js/2.e4d0b45f.chunk.js.map",
+    "index.html": "/Clock-React-App/index.html",
+    "precache-manifest.1c20b296e29eef9ebd399df868bf4237.js": "/Clock-React-App/precache-manifest.1c20b296e29eef9ebd399df868bf4237.js",
+    "service-worker.js": "/Clock-React-App/service-worker.js",
+    "static/css/main.d6b28c43.chunk.css.map": "/Clock-React-App/static/css/main.d6b28c43.chunk.css.map",
+    "static/js/2.e4d0b45f.chunk.js.LICENSE.txt": "/Clock-React-App/static/js/2.e4d0b45f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1fb84bc4.js",
+    "static/js/2.e4d0b45f.chunk.js",
+    "static/css/main.d6b28c43.chunk.css",
+    "static/js/main.32fca8e9.chunk.js"
+  ]
+}
