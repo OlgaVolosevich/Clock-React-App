@@ -1,8 +1,9 @@
 import React from 'react';
+import './Clock.scss'
 
 const Clock = ({ time }) => {
     return (
-        <h1>{time.toLocaleTimeString()}</h1>
+        <p className="clock-wrapper">{time.toLocaleTimeString()}</p>
     );
 }
 

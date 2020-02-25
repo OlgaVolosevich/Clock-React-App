@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.scss';
 import Clock from './components/Clock/Clock';
 import DateInfo from './components/DateInfo/DateInfo';
 
@@ -25,7 +25,7 @@ class App extends Component {
   render() {
 
     return(
-      <div>
+      <div className="app">
         <DateInfo  date={this.state.date}/>
         <Clock time={this.state.date}/>
       </div>
